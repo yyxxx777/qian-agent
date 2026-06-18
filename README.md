@@ -275,46 +275,264 @@ python chat.py
 
 ---
 
+# 🌌 Qian Agent | 乾 Agent
 
-## 🇬🇧 English Version
+**Brakes, Guardrails and Recorders for AI Agent Thinking**
 
-### 🌌 Qian Agent
+Cognitive Layer Meta-Architecture · Mechanism-Driven · Self-Evolving Growth
 
-**Brakes, guardrails, and recorders for AI Agent thinking.**
-
-Qian Agent is a cognitive layer meta-architecture focused on thinking process control. It does not replace any execution Agent — instead, it adds core capabilities of **self-verification, deviation correction, and experience accumulation**.
-
-### Current Status
-
-**V1.0 → V3.0 released as open source demos.** V3.0 is the most complete demo to date.
-
-### Pain Points We Solve
-
-- 🔀 **Goal Drift** — Deviating from the original goal after a few steps
-- 💰 **Wasted Compute** — Re-inferring from scratch for repeated tasks
-- 🚫 **No Stop-Loss** — Never actively reviews or corrects mistakes
-- 🧠 **No Memory** — After doing a task 100 times, still starts from zero
-
-### Core Design Philosophy
-
-1. **Mechanism First, Model Second** — Hard-coded rules, not prompt soft constraints
-2. **Confusion-Driven Computing** — Deep thinking only activates at "confused moments"
-3. **Precipitable Experience** — Structured experience fingerprints, faster and more accurate with use
-4. **Pluggable Cognitive Styles** — Personality units can be loaded, fused, and switched on demand
-
-### Quick Start
-
-```bash
-git clone https://github.com/YOUR_USER/qian-agent.git
-cd qian-agent
-cp .env.example .env  # Add your DeepSeek API key
-python chat.py
-```
-
-### Roadmap (Preview)
-
-V3.1, Qianyuan V1.0, and Pro (13-layer architecture with soul emergence, mood system, and 10 personality fragments) are designed and will be released as demos in future iterations. **Star ⭐ / Watch 🔔 to stay updated.**
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](#core-design-philosophy)
+[![Versions](https://img.shields.io/badge/versions-5-blue)](#current-versions)
 
 ---
 
-**As heaven moves through strength, so the superior man never ceases to strive.**
+## 🙏 A Note Up Front
+
+This is an independent open-source project initiated by a **college student**.
+
+Progress may fall behind expectations due to academic commitments. Your understanding is greatly appreciated. I will do my best to deliver updates ahead of schedule whenever possible.
+
+---
+
+## 🔥 What This Project Is In One Sentence
+
+**Qian Agent is a cognitive layer meta-architecture focused on governing the thinking process of AI agents.**
+
+It does not replace any execution-oriented agent. Instead, it equips them with core capabilities of **self-verification, deviation correction, and experience accumulation** — transforming AI from a "head-down executor" into an intelligent agent that "knows how to think, when to pause, and how to grow."
+
+---
+
+## 👀 The Pain Points We Address
+
+Why do agents still fail at long-horizon tasks even as model parameters keep growing?
+
+- 🔀 **Goal Drift**: Veers completely off track after just a few steps, losing sight of the original objective
+- 💰 **Wasted Compute**: Re-infers from scratch for repeated tasks, leading to meaningless token consumption
+- 🚫 **No Stop-Loss**: Keeps going down the wrong path instead of pausing to review and correct itself
+- 🧠 **No Retention**: Even after doing a task a hundred times, it starts all over again next time
+
+The core problem is never that the model isn't smart enough. It's the lack of a set of **hard-rule thinking governance mechanisms independent of the model itself**. Qian Agent is built to fill this gap.
+
+---
+
+## 📦 Current Versions
+
+**V1.0 → V3.0 are open source (demo stage)**. Each version runs independently and can be launched with one click via `chat.py`.
+
+| Version | Codename | Core Capabilities |
+|---------|----------|--------------------|
+| V1.0 | Fingerprint Loop | Experience fingerprint library · Cold start · Hard-coded step count |
+| V2.0 | Template Learning | Task template matching · EWMA weight convergence · Personality engine |
+| V2.1 | Personality + Brain | Brain network orchestration (DMN/CEN/SN) · Cognitive scheduling |
+| V2.5 | Deep Thinking | Opposing perspective · Divergent mode · Cross-domain association |
+| **V3.0** ★ | **Source · Soul** | **Most complete demo to date: 16 tools + 14 file types + Soul framework** |
+
+> V3.0 is the **gold baseline** of the entire project — the soulfulness and dialogue experience of all subsequent versions are benchmarked against this release.
+
+---
+
+## 🗺️ Roadmap (Preview)
+
+| Version | Status | Preview |
+|---------|--------|---------|
+| V3.1 | Designed | Deep thinking system · Dialogue memory · Chinese localization bug fixes |
+| Qianyuan V1.0 | Designed | Dynamic depth · Semantic cache · Constraint engine |
+| Qianyuan Pro (Mengling) | Designed | 13-layer architecture · Soul emergence · 10 fragments · Mood system |
+| Taiyi | Designed (not technically ready) | Not yet public (to be released after refinement based on feedback) |
+
+> Subsequent demos will be rolled out gradually as iteration progresses. **⭐ Star / 🔔 Watch** the repo to get notified of updates.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USER/qian-agent.git
+cd qian-agent
+
+# 2. Configure your API Key
+cp .env.example .env
+# Edit .env and fill in your DeepSeek API Key (sign up: https://platform.deepseek.com)
+
+# 3. Run (zero dependencies, just Python 3.12+)
+python chat.py
+```
+
+After launch, select your language and version:
+
+```
+  ═══ Qian Agent Launcher ════════════════════
+
+  Language
+  [zh] Chinese  |  [en] English
+
+  Select Version
+    [v1] V1 — Fingerprint Loop
+    [v2] V2.0 — Template Learning
+    [v21] V2.1 — Personality + Brain
+    [v25] V2.5 — Deep Thinking
+  ★ [v30] V3.0 — Source · Soul ★     ← Recommended
+
+  version > v30
+```
+
+Interaction example:
+```
+  You > Write a Python factorial function
+  [code]
+  🟢 exact  Predicted: ~3 steps  Confidence=90%
+  Completed 2 steps 150tk 1.5s corr=0
+  ─────────────────────────────────────
+  def factorial(n: int) -> int:
+      if n <= 1: return 1
+      return n * factorial(n - 1)
+  Mood: 😊 Stable
+```
+
+---
+
+## 🧠 Core Design Philosophy
+
+All capabilities are designed based on **engineer-feasible** technical paths — no metaphysical concepts.
+
+### 1. Mechanism First, Model Second
+Core verification, stop-loss, and scheduling logic are all implemented as hard-coded rules. We do not rely on the model to "behave itself". Stable, controllable, and consistent.
+
+### 2. Confusion-Driven Compute Allocation
+Not every task needs full-power deep thinking. The system only activates deep thinking at "moments of confusion" — when experience matching is low and execution is stuck. This delivers truly precise compute allocation.
+
+### 3. Precipitable, Transferable Experience
+Executed tasks form structured **experience fingerprints**. The more you use it, the faster, more accurate, and more personalized it becomes.
+
+### 4. Pluggable Cognitive Styles
+Different thinking habits, decision preferences, and personality traits can be packaged as independent cognitive units, loaded on demand and fused freely. (Full version coming later)
+
+---
+
+## 🏗️ Architecture Overview
+
+### V3.0 Core Flow
+
+```
+User Input → predict (task classification + experience matching)
+                  ↓
+             execute (dynamic step loop)
+                  ↓
+    ┌─────────────┼─────────────┐
+    ↓             ↓             ↓
+ mid_check     god_check   adversarial
+ (step-level)  (global-level) (opposing view)
+                  ↓
+             learn (update fingerprints + weights + templates)
+                  ↓
+             Return Result
+```
+
+### V3.0 Core Modules
+
+| Module | Core Function |
+|--------|---------------|
+| Experience Fingerprint Library | Task-level experience accumulation and LSH matching, zero redundant inference for familiar tasks |
+| Dynamic Deviation Verification Engine | Full-process execution path monitoring, auto-correction when goal drifts |
+| Adaptive Weight System | Independent iterative optimization by domain, becomes more personalized with usage |
+| Task Template System | Structured task descriptions, cross-task experience transfer |
+| Meta-Verification Engine | Intra-step self-check + inter-step cross-check + global review |
+| Opposing Perspective Engine | Outsider view review to break blind spots in thinking |
+| Divergent Mode | Cross-domain association, exclusive for creative tasks |
+| Self-Healing Engine | Error detection + automatic repair |
+| Soul Framework | 5 immutable soul anchors to ensure personality consistency |
+| Tool System | 16 tools + 14 file types, batch + search + introspection |
+
+---
+
+## 📊 Performance Benchmarks
+
+Based on a 20-task test set (casual chat / coding / reasoning / design / edge cases), V3.0 data:
+
+| Metric | Value |
+|--------|-------|
+| Success Rate | 100% |
+| Average Latency | 9.08s (DeepSeek API) |
+| Step Range | 1-5 adaptive steps |
+| Token Efficiency | ~150 tokens per task on average (pure inference) |
+
+---
+
+## 💡 Differentiation & Unique Value
+
+### 1. One-of-a-Kind Niche
+Every other agent framework on the market is competing on "how to execute" (tool calling, execution capabilities). Qian Agent is the **only architecture focused on "how to think"** at the cognitive layer. We are not here to take anyone's market share — we are an ability amplifier for all agents.
+
+### 2. Mechanism-Driven, Not Prompt-Driven
+Core capabilities are not achieved by stacking prompt soft constraints. Hard logic governance delivers stable, reproducible results that do not depend on the model's on-the-spot performance.
+
+### 3. Self-Consistent Cognitive System
+From experience accumulation and deviation correction to personalized cognition, it forms a complete and self-consistent design closed loop — not a pile of scattered features. This is our core barrier at the conceptual level.
+
+### 4. Fully Neutral & Open Source
+Initiated by an independent developer, neutral and unbound, compatible with all mainstream large models and agent frameworks.
+
+---
+
+## 🤝 Get Involved
+
+- 💬 Ideas, suggestions, bug reports: Feel free to open an **Issue** — every single one gets a thoughtful reply
+- ⭐ Support the project: Hit **Star** — that's the biggest encouragement an independent developer can get
+- 📢 A community group will open soon to build the architecture together
+- 🔔 **Watch** the repo to get notified of new versions first
+
+---
+
+## 📝 Final Note
+
+From the simplest MVP to the full Taiyi architecture, it's a long road. We take it one step at a time.
+
+> **As heaven moves through strength, so the superior man never ceases to strive.**
+
+---
+
+### A Note From The Developer
+
+Hi everyone! I'm **Yao Xin**, the creator of Qian. I'm a college student majoring in computer science, and I work with agents almost every day.
+
+I've noticed that every AI and agent has its own pain points. Here's what has frustrated me most about AI so far:
+
+1. AI hallucinations pop up out of nowhere
+2. Context handling is clunky — it forgets things easily and barely responds to prompt adjustments
+3. When I get a spark of inspiration, I spend so long explaining it to the AI that I end up forgetting my original idea
+
+So I thought: if AI doesn't get me, why not build one that does?
+
+**My journey here** (feel free to skip): It didn't start as Qian. It was an autonomous system built to make money on its own. Since single-agent performance wasn't good enough, I gradually built it into a "one-person company (CPO)". It had some neat ideas, but the "fault-finding polling" design — where agents review each other like a daily standup — while it wastes tokens on simple tasks, I never had the heart to cut it. In the end, that "fully automatic" system still needed my constant intervention — and that made me realize it wasn't a lack of features, it was a lack of proper thinking mechanisms.
+
+That's how the predecessor of Qian was born: a meta_agent design. But I knew it wasn't enough.
+
+---
+
+**(Please don't skip this part) Three big questions:**
+
+**1. Are we all just imitating our whole lives?**
+A habit of yours might have come from a friend. Babies start from zero — imitating speech, movements, and slowly become who they are. When the volume of imitation is large enough, a qualitative change happens. Can AI do the same? Who knows.
+
+**2. Do today's self-learning agents really "evolve"?**
+Their learning loop is "execute → extract → reuse → iterate". They don't learn *how to learn* — they don't know why they're learning something, they just memorize it. I don't think that's how human learning works. That's why I designed Qian's core: **to let Qian learn "learning itself"**.
+
+**3. What is the ideal form of AI in the future?**
+When compute, storage, and energy all break through, will AI become an omniscient god? Or will it become more and more human? Both are possible. So which direction should we be building toward right now?
+
+---
+
+### 🥰 In closing
+
+I definitely don't know everything. I'm a generalist learner — I dabble in a lot of things but don't dig super deep into any single one. But having broad knowledge lets you see connections across disciplines. Qian is the best I've come up with so far, but it's by no means the only way forward in this space.
+
+I hope everyone can share their valuable thoughts and suggestions. Just as the philosophy of Qian says: **As heaven moves through strength, so the superior man never ceases to strive.**
+
+And to you — my friend, if you've read this far. As long as even one person cares about this project, I'll keep working on it and updating it.
+
+Thank you so much for reading. Thank you for this chance to share my thoughts with you.
+
+**— Yao Xin**
