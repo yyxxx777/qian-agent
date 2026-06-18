@@ -1,16 +1,14 @@
-# 🌌 乾 Agent | Qian Agent（language:zh/en）(zh)
 
-tips:Translate this sentence please, but don't rely on machine/ai translation — focus on making it sound natural in Chinese
+！！！tips:Translate this sentence please, but don't rely on machine/ai translation — focus on making it sound natural in Chinese
 
-真心招募技术伙伴以及珍贵建议   2696251061@qq.com
+真心招募技术伙伴以及珍贵建议
 Genuinely looking for tech partners and valuable insights.
 
+# 🌌 乾 Agent | Qian Agent
 
+**给 AI Agent 装上思考的刹车、护栏与记录仪**
 
-
-> **给 AI Agent 装上思考的刹车、护栏与记录仪**
->
-> 认知层元架构 · 机制驱动 · 自进化成长
+认知层元架构 · 机制驱动 · 自进化成长
 
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -66,12 +64,12 @@ Genuinely looking for tech partners and valuable insights.
 
 ## 🗺️ 后续路线（预告）
 
-| 版本 | 状态 | 预告 |
-|------|------|------|
+| 版本 | 状态 | 预告说明 |
+|------|------|----------|
 | V3.1 | 已设计 | 深度系统 · 对话记忆 · 中文 bug 修复 |
 | Qianyuan V1.0 | 已设计 | 动态深度 · 语义缓存 · 约束引擎 |
 | Qianyuan Pro (萌灵) | 已设计 | 13 层架构 · 灵魂涌现 · 10 碎片 · 心情系统 |
-|tai yi （太一）| 已设计（技术层不够）||暂不公开（后续有效果和意见打磨再公开）||
+| Taiyi 太一 | 设计中 · 技术待成熟 | 暂不公开，后续打磨完善后逐步发布 |
 
 > 后续 demo 将随迭代逐步开放。蹲更新请 **⭐ Star / 🔔 Watch**。
 
@@ -80,8 +78,8 @@ Genuinely looking for tech partners and valuable insights.
 ## 🚀 快速开始
 
 ```bash
-# 1. 克隆
-git clone https://github.com/YOUR_USER/qian-agent.git
+# 1. 克隆仓库
+git clone https://github.com/yyxxx777/qian-agent.git
 cd qian-agent
 
 # 2. 配置 API Key
@@ -209,10 +207,17 @@ python chat.py
 
 ---
 
+## 📜 开源说明
+- **代码部分**：采用 **MIT 协议**开源，最大限度开放使用自由度，允许个人、商业场景自由使用、修改、分发。
+- **原创设计**：架构理念、概念体系、灵魂碎片设计等原创创意保留所有权利，衍生使用请注明来源。
+
+---
+
 ## 🤝 参与共建
 
 - 💬 想法、建议、Bug 反馈：直接提 **Issue**，每一条都会认真回复
 - ⭐ 支持项目：点个 **Star**，就是对独立开发者最大的鼓励
+- 📮 合作联系：3048939138@qq.com
 - 📢 后续会开放交流社群，一起打磨架构
 - 🔔 **Watch** 仓库，第一时间获取版本更新通知
 
@@ -269,11 +274,10 @@ python chat.py
 
 **——姚忻**
 
-
-
-
-
 ---
+
+<details>
+<summary>🇬🇧 English Version</summary>
 
 # 🌌 Qian Agent | 乾 Agent
 
@@ -340,7 +344,7 @@ The core problem is never that the model isn't smart enough. It's the lack of a 
 | V3.1 | Designed | Deep thinking system · Dialogue memory · Chinese localization bug fixes |
 | Qianyuan V1.0 | Designed | Dynamic depth · Semantic cache · Constraint engine |
 | Qianyuan Pro (Mengling) | Designed | 13-layer architecture · Soul emergence · 10 fragments · Mood system |
-| Taiyi | Designed (not technically ready) | Not yet public (to be released after refinement based on feedback) |
+| Taiyi | In design · tech not yet mature | Not yet public, will be released gradually after refinement |
 
 > Subsequent demos will be rolled out gradually as iteration progresses. **⭐ Star / 🔔 Watch** the repo to get notified of updates.
 
@@ -350,7 +354,7 @@ The core problem is never that the model isn't smart enough. It's the lack of a 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USER/qian-agent.git
+git clone https://github.com/yyxxx777/qian-agent.git
 cd qian-agent
 
 # 2. Configure your API Key
@@ -477,10 +481,17 @@ Initiated by an independent developer, neutral and unbound, compatible with all 
 
 ---
 
+## 📜 Open Source Statement
+- **Code**: Licensed under the **MIT License** for maximum freedom of use. Free for personal and commercial use, modification and distribution.
+- **Original Design**: All rights reserved for original concepts, architecture ideas and soul fragment system. Please credit the source when deriving works.
+
+---
+
 ## 🤝 Get Involved
 
 - 💬 Ideas, suggestions, bug reports: Feel free to open an **Issue** — every single one gets a thoughtful reply
 - ⭐ Support the project: Hit **Star** — that's the biggest encouragement an independent developer can get
+- 📮 Contact: 3048939138@qq.com
 - 📢 A community group will open soon to build the architecture together
 - 🔔 **Watch** the repo to get notified of new versions first
 
@@ -537,63 +548,4 @@ Thank you so much for reading. Thank you for this chance to share my thoughts wi
 
 **— Yao Xin**
 
-
-
- 
- 
- 
-📜 权利与使用声明
- 
-一、代码开源授权
- 
-本仓库所有源代码遵循 GNU Affero General Public License v3.0 (AGPL-3.0) 开源协议。你可在协议范围内自由使用、修改、分发代码，所有基于本项目的衍生作品，必须同样以 AGPL-3.0 协议完整开源。
- 
-二、创意与设计权利保留
- 
-本项目的核心产品创意、交互设计、架构方案、业务逻辑、UI视觉设计等原创内容，完整著作权与相关权利归本项目作者所有。
- 
-- 禁止任何主体（包括但不限于商业公司、企业团队）直接照搬、复刻本项目的整体设计、核心创意与产品逻辑，用于同类产品开发或商业用途。
-- 禁止对本项目的设计方案、创意逻辑进行洗稿、微调后闭源商用，或抢先申请相关知识产权。
- 
-三、使用报备要求
- 
-除个人非商业性质的学习、研究外，任何主体若满足以下任一情况，必须在使用前主动联系作者报备，说明项目名称、使用场景与主体信息：
- 
-1. 基于本项目代码进行二次开发、制作衍生产品；
-2. 借鉴、复用本项目的核心创意、设计方案或架构思路，用于开源项目或商业项目；
-3. 将本项目任何内容用于商业盈利场景。
- 
-四、协商说明
- 
-本项目所有设计与创意均公开透明，所有合法使用需求均可协商。只要提前报备、非恶意抄袭的使用场景，作者通常都会予以授权，欢迎沟通交流。
- 
-报备与联系方式：2696251061@qq.com
- 
- 
- 
-📜 Rights and Usage Statement
- 
-1. Code Open Source License
- 
-All source code in this repository is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). You are free to use, modify, and distribute the code within the scope of the license. All derivative works based on this project must also be fully open-sourced under the AGPL-3.0 license.
- 
-2. Reservation of Rights for Ideas and Designs
- 
-The full copyright and related rights of all original content of this project, including but not limited to core product ideas, interaction designs, architecture solutions, business logic, and UI visual designs, are reserved by the project author.
- 
-- Any entity (including but not limited to commercial companies and enterprise teams) is prohibited from directly copying or replicating the overall design, core ideas and product logic of this project for similar product development or commercial purposes.
-- It is prohibited to plagiarize or slightly adjust the design schemes and creative logic of this project for closed-source commercial use, or to apply for related intellectual property rights in advance.
- 
-3. Usage Notification Requirement
- 
-Except for personal non-commercial learning and research, any entity that meets any of the following conditions must proactively contact the author and submit a notification before use, stating the project name, usage scenario and entity information:
- 
-1. Secondary development or derivative product creation based on the code of this project;
-2. Referencing or reusing the core ideas, design schemes or architecture ideas of this project for open source or commercial projects;
-3. Using any content of this project for commercial profit scenarios.
- 
-4. Negotiation Statement
- 
-All designs and ideas of this project are open and transparent. All legitimate usage requirements are negotiable. As long as you report in advance and the usage is not malicious plagiarism, the author will usually grant authorization. Welcome to communicate.
- 
-Contact for notification: 2696251061@qq.com
+</details>
