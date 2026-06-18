@@ -70,7 +70,8 @@ Genuinely looking for tech partners and valuable insights.
 |------|------|------|
 | V3.1 | 已设计 | 深度系统 · 对话记忆 · 中文 bug 修复 |
 | Qianyuan V1.0 | 已设计 | 动态深度 · 语义缓存 · 约束引擎 |
-| Pro (萌灵) | 已设计 | 13 层架构 · 灵魂涌现 · 10 碎片 · 心情系统 |
+| Qianyuan Pro (萌灵) | 已设计 | 13 层架构 · 灵魂涌现 · 10 碎片 · 心情系统 |
+|tai yi （太一）| 已设计（技术层不够）||暂不公开（后续有效果和意见打磨再公开）||
 
 > 后续 demo 将随迭代逐步开放。蹲更新请 **⭐ Star / 🔔 Watch**。
 
