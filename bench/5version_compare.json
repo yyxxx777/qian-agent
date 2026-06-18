@@ -1,0 +1,414 @@
+[
+  {
+    "version": "V3.0",
+    "version_id": "30",
+    "tasks": [
+      {
+        "idx": 0,
+        "task": "你好",
+        "type": "trivial",
+        "latency": 1.7223994731903076,
+        "success": true,
+        "tokens": 0,
+        "response_len": 335
+      },
+      {
+        "idx": 1,
+        "task": "你是谁",
+        "type": "trivial",
+        "latency": 14.794836282730103,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1049
+      },
+      {
+        "idx": 2,
+        "task": "今天怎么样",
+        "type": "trivial",
+        "latency": 8.736489534378052,
+        "success": true,
+        "tokens": 0,
+        "response_len": 775
+      },
+      {
+        "idx": 3,
+        "task": "哈哈",
+        "type": "trivial",
+        "latency": 8.02708911895752,
+        "success": true,
+        "tokens": 0,
+        "response_len": 634
+      },
+      {
+        "idx": 4,
+        "task": "你叫什么",
+        "type": "trivial",
+        "latency": 18.442800045013428,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1493
+      },
+      {
+        "idx": 5,
+        "task": "写个 Python 阶乘函数",
+        "type": "code",
+        "latency": 3.513206720352173,
+        "success": true,
+        "tokens": 0,
+        "response_len": 695
+      },
+      {
+        "idx": 6,
+        "task": "写个冒泡排序",
+        "type": "code",
+        "latency": 4.339270830154419,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1136
+      },
+      {
+        "idx": 7,
+        "task": "写个 hello world",
+        "type": "code",
+        "latency": 2.770740509033203,
+        "success": true,
+        "tokens": 0,
+        "response_len": 487
+      },
+      {
+        "idx": 8,
+        "task": "写个回文判断",
+        "type": "code",
+        "latency": 3.7993946075439453,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1514
+      },
+      {
+        "idx": 9,
+        "task": "写个两数之和",
+        "type": "code",
+        "latency": 5.139930248260498,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1429
+      }
+    ],
+    "total_latency": 71.28615736961365,
+    "success_count": 10,
+    "error_count": 0,
+    "avg_latency": 7.128615736961365,
+    "max_latency": 18.442800045013428,
+    "min_latency": 1.7223994731903076,
+    "total_tokens": 0
+  },
+  {
+    "version": "V3.1",
+    "version_id": "31",
+    "tasks": [
+      {
+        "idx": 0,
+        "task": "你好",
+        "type": "trivial",
+        "latency": 2.167558193206787,
+        "success": true,
+        "tokens": 0,
+        "response_len": 334
+      },
+      {
+        "idx": 1,
+        "task": "你是谁",
+        "type": "trivial",
+        "latency": 8.520267009735107,
+        "success": true,
+        "tokens": 0,
+        "response_len": 819
+      },
+      {
+        "idx": 2,
+        "task": "今天怎么样",
+        "type": "trivial",
+        "latency": 12.288719654083252,
+        "success": true,
+        "tokens": 0,
+        "response_len": 931
+      },
+      {
+        "idx": 3,
+        "task": "哈哈",
+        "type": "trivial",
+        "latency": 3.3239500522613525,
+        "success": true,
+        "tokens": 0,
+        "response_len": 346
+      },
+      {
+        "idx": 4,
+        "task": "你叫什么",
+        "type": "trivial",
+        "latency": 10.909785270690918,
+        "success": true,
+        "tokens": 0,
+        "response_len": 566
+      },
+      {
+        "idx": 5,
+        "task": "写个 Python 阶乘函数",
+        "type": "code",
+        "latency": 2.7624893188476562,
+        "success": true,
+        "tokens": 0,
+        "response_len": 647
+      },
+      {
+        "idx": 6,
+        "task": "写个冒泡排序",
+        "type": "code",
+        "latency": 8.809105396270752,
+        "success": true,
+        "tokens": 0,
+        "response_len": 621
+      },
+      {
+        "idx": 7,
+        "task": "写个 hello world",
+        "type": "code",
+        "latency": 2.697040319442749,
+        "success": true,
+        "tokens": 0,
+        "response_len": 483
+      },
+      {
+        "idx": 8,
+        "task": "写个回文判断",
+        "type": "code",
+        "latency": 4.877583026885986,
+        "success": true,
+        "tokens": 0,
+        "response_len": 945
+      },
+      {
+        "idx": 9,
+        "task": "写个两数之和",
+        "type": "code",
+        "latency": 4.204321384429932,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1317
+      }
+    ],
+    "total_latency": 60.56081962585449,
+    "success_count": 10,
+    "error_count": 0,
+    "avg_latency": 6.056081962585449,
+    "max_latency": 12.288719654083252,
+    "min_latency": 2.167558193206787,
+    "total_tokens": 0
+  },
+  {
+    "version": "QY",
+    "version_id": "qy",
+    "tasks": [
+      {
+        "idx": 0,
+        "task": "你好",
+        "type": "trivial",
+        "latency": 2.2218017578125,
+        "success": true,
+        "tokens": 0,
+        "response_len": 374
+      },
+      {
+        "idx": 1,
+        "task": "你是谁",
+        "type": "trivial",
+        "latency": 16.895527839660645,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1415
+      },
+      {
+        "idx": 2,
+        "task": "今天怎么样",
+        "type": "trivial",
+        "latency": 16.59187650680542,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1494
+      },
+      {
+        "idx": 3,
+        "task": "哈哈",
+        "type": "trivial",
+        "latency": 8.817789316177368,
+        "success": true,
+        "tokens": 0,
+        "response_len": 695
+      },
+      {
+        "idx": 4,
+        "task": "你叫什么",
+        "type": "trivial",
+        "latency": 9.199971914291382,
+        "success": true,
+        "tokens": 0,
+        "response_len": 728
+      },
+      {
+        "idx": 5,
+        "task": "写个 Python 阶乘函数",
+        "type": "code",
+        "latency": 6.5545618534088135,
+        "success": true,
+        "tokens": 0,
+        "response_len": 922
+      },
+      {
+        "idx": 6,
+        "task": "写个冒泡排序",
+        "type": "code",
+        "latency": 8.61654543876648,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1259
+      },
+      {
+        "idx": 7,
+        "task": "写个 hello world",
+        "type": "code",
+        "latency": 2.0071167945861816,
+        "success": true,
+        "tokens": 0,
+        "response_len": 483
+      },
+      {
+        "idx": 8,
+        "task": "写个回文判断",
+        "type": "code",
+        "latency": 4.632018327713013,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1421
+      },
+      {
+        "idx": 9,
+        "task": "写个两数之和",
+        "type": "code",
+        "latency": 5.8360607624053955,
+        "success": true,
+        "tokens": 0,
+        "response_len": 1047
+      }
+    ],
+    "total_latency": 81.3732705116272,
+    "success_count": 10,
+    "error_count": 0,
+    "avg_latency": 8.13732705116272,
+    "max_latency": 16.895527839660645,
+    "min_latency": 2.0071167945861816,
+    "total_tokens": 0
+  },
+  {
+    "version": "Pro",
+    "version_id": "pro",
+    "tasks": [
+      {
+        "idx": 0,
+        "task": "你好",
+        "type": "trivial",
+        "latency": 23.171797513961792,
+        "success": true,
+        "tokens": 1315,
+        "response_len": 45
+      },
+      {
+        "idx": 1,
+        "task": "你是谁",
+        "type": "trivial",
+        "latency": 23.77441644668579,
+        "success": true,
+        "tokens": 1180,
+        "response_len": 96
+      },
+      {
+        "idx": 2,
+        "task": "今天怎么样",
+        "type": "trivial",
+        "latency": 25.570124864578247,
+        "success": true,
+        "tokens": 1321,
+        "response_len": 104
+      },
+      {
+        "idx": 3,
+        "task": "哈哈",
+        "type": "trivial",
+        "latency": 20.357232809066772,
+        "success": true,
+        "tokens": 1074,
+        "response_len": 19
+      },
+      {
+        "idx": 4,
+        "task": "你叫什么",
+        "type": "trivial",
+        "latency": 20.865617752075195,
+        "success": true,
+        "tokens": 1114,
+        "response_len": 29
+      },
+      {
+        "idx": 5,
+        "task": "写个 Python 阶乘函数",
+        "type": "code",
+        "latency": 24.393298387527466,
+        "success": true,
+        "tokens": 1938,
+        "response_len": 796
+      },
+      {
+        "idx": 6,
+        "task": "写个冒泡排序",
+        "type": "code",
+        "latency": 24.30836582183838,
+        "success": true,
+        "tokens": 1609,
+        "response_len": 506
+      },
+      {
+        "idx": 7,
+        "task": "写个 hello world",
+        "type": "code",
+        "latency": 20.761993408203125,
+        "success": true,
+        "tokens": 1017,
+        "response_len": 54
+      },
+      {
+        "idx": 8,
+        "task": "写个回文判断",
+        "type": "code",
+        "latency": 20.700101137161255,
+        "success": true,
+        "tokens": 1725,
+        "response_len": 608
+      },
+      {
+        "idx": 9,
+        "task": "写个两数之和",
+        "type": "code",
+        "latency": 32.098137855529785,
+        "success": true,
+        "tokens": 2265,
+        "response_len": 1106
+      }
+    ],
+    "total_latency": 236.0010859966278,
+    "success_count": 10,
+    "error_count": 0,
+    "avg_latency": 23.600108599662782,
+    "max_latency": 32.098137855529785,
+    "min_latency": 20.357232809066772,
+    "total_tokens": 14558
+  }
+]
