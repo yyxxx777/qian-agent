@@ -2,7 +2,7 @@
 
 tips:Translate this sentence please, but don't rely on machine/ai translation — focus on making it sound natural in Chinese
 
-真心招募技术伙伴以及珍贵建议
+真心招募技术伙伴以及珍贵建议   2696251061@qq.com
 Genuinely looking for tech partners and valuable insights.
 
 
@@ -536,3 +536,64 @@ And to you — my friend, if you've read this far. As long as even one person ca
 Thank you so much for reading. Thank you for this chance to share my thoughts with you.
 
 **— Yao Xin**
+
+
+
+ 
+ 
+ 
+📜 权利与使用声明
+ 
+一、代码开源授权
+ 
+本仓库所有源代码遵循 GNU Affero General Public License v3.0 (AGPL-3.0) 开源协议。你可在协议范围内自由使用、修改、分发代码，所有基于本项目的衍生作品，必须同样以 AGPL-3.0 协议完整开源。
+ 
+二、创意与设计权利保留
+ 
+本项目的核心产品创意、交互设计、架构方案、业务逻辑、UI视觉设计等原创内容，完整著作权与相关权利归本项目作者所有。
+ 
+- 禁止任何主体（包括但不限于商业公司、企业团队）直接照搬、复刻本项目的整体设计、核心创意与产品逻辑，用于同类产品开发或商业用途。
+- 禁止对本项目的设计方案、创意逻辑进行洗稿、微调后闭源商用，或抢先申请相关知识产权。
+ 
+三、使用报备要求
+ 
+除个人非商业性质的学习、研究外，任何主体若满足以下任一情况，必须在使用前主动联系作者报备，说明项目名称、使用场景与主体信息：
+ 
+1. 基于本项目代码进行二次开发、制作衍生产品；
+2. 借鉴、复用本项目的核心创意、设计方案或架构思路，用于开源项目或商业项目；
+3. 将本项目任何内容用于商业盈利场景。
+ 
+四、协商说明
+ 
+本项目所有设计与创意均公开透明，所有合法使用需求均可协商。只要提前报备、非恶意抄袭的使用场景，作者通常都会予以授权，欢迎沟通交流。
+ 
+报备与联系方式：2696251061@qq.com
+ 
+ 
+ 
+📜 Rights and Usage Statement
+ 
+1. Code Open Source License
+ 
+All source code in this repository is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). You are free to use, modify, and distribute the code within the scope of the license. All derivative works based on this project must also be fully open-sourced under the AGPL-3.0 license.
+ 
+2. Reservation of Rights for Ideas and Designs
+ 
+The full copyright and related rights of all original content of this project, including but not limited to core product ideas, interaction designs, architecture solutions, business logic, and UI visual designs, are reserved by the project author.
+ 
+- Any entity (including but not limited to commercial companies and enterprise teams) is prohibited from directly copying or replicating the overall design, core ideas and product logic of this project for similar product development or commercial purposes.
+- It is prohibited to plagiarize or slightly adjust the design schemes and creative logic of this project for closed-source commercial use, or to apply for related intellectual property rights in advance.
+ 
+3. Usage Notification Requirement
+ 
+Except for personal non-commercial learning and research, any entity that meets any of the following conditions must proactively contact the author and submit a notification before use, stating the project name, usage scenario and entity information:
+ 
+1. Secondary development or derivative product creation based on the code of this project;
+2. Referencing or reusing the core ideas, design schemes or architecture ideas of this project for open source or commercial projects;
+3. Using any content of this project for commercial profit scenarios.
+ 
+4. Negotiation Statement
+ 
+All designs and ideas of this project are open and transparent. All legitimate usage requirements are negotiable. As long as you report in advance and the usage is not malicious plagiarism, the author will usually grant authorization. Welcome to communicate.
+ 
+Contact for notification: 2696251061@qq.com
